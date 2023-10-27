@@ -1,11 +1,9 @@
 
-```markdown
 # Emoji Game
 
 ![Emoji Game](https://assets.ccbp.in/frontend/react-js/game-logo-img.png)
 
-Welcome to the Emoji Game! This is a fun and interactive game where you can test your memory and matching skills by clicking on emojis.
-Your goal is to match all the emojis without clicking on the same one twice.
+Welcome to the Emoji Game! This is a fun and interactive game where you can test your memory and matching skills by clicking on emojis. Your goal is to match all the emojis without clicking on the same one twice.
 
 ## Features
 
@@ -26,6 +24,13 @@ Your goal is to match all the emojis without clicking on the same one twice.
 
 ### Lose Game
 ![Lose Game](https://assets.ccbp.in/frontend/content/react-js/emoji-game-lose-game-lg-output.png)
+
+## Set Up Instructions
+
+1. Clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/your-username/emoji-game.git
+
 
 ## Installation and Usage
 
