@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 100vh;
+}
+
+ui li {
+  margin: 0px;
+}
+
+.EmojiGame {
+  padding-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojis-container {
+  display: flex;
+  width: 60vw;
+  flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  .EmojiGame {
+    margin: 20px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .emojis-container {
+    width: 100vw;
+    margin-left: -3vh;
+  }
+}

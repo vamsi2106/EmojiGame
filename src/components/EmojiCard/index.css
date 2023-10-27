@@ -1,0 +1,32 @@
+.emojiCard-container {
+  list-style: none;
+  width: 12vw;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #ffffff33;
+  cursor: pointer;
+}
+.emoji-img {
+  height: 80px;
+}
+.btn {
+  background-color: transparent;
+  outline: none;
+  border: 0px solid transparent;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .emojiCard-container {
+    height: 80px;
+    width: 80px;
+    margin: 6px;
+  }
+  .emoji-img {
+    height: 50px;
+  }
+}

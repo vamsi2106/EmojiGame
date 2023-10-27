@@ -1,0 +1,46 @@
+* {
+  font-family: 'Roboto';
+}
+nav {
+  color: white;
+  width: 100vw;
+  padding: 10px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  background-color: #ffffff33 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emojiLogo {
+  display: flex;
+  align-items: center;
+}
+.emoji {
+  height: 50px;
+}
+.nav-score {
+  display: flex;
+}
+p {
+  margin: 10px;
+  font-weight: 500;
+  font-size: 26px;
+}
+@media (max-width: 576px) {
+  nav {
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+  }
+  .emoji {
+    height: 30px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
